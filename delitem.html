@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Remove Items</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                overflow-x: hidden;
+            }
+            button{
+                border-radius: 20px;
+                padding:2px 4px;
+                background:lightcoral;
+                font-family: 'ubuntu';
+                border:3px solid black;
+                color:black;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+            button:hover{
+                background: none;
+                border:3px solid crimson;
+            }
+        </style>
+    </head>
+    <body align="center">
+        <form method="post" action="link.php">
+            <img src="admins.jpg" width="1400" height="500">
+            <div class="container ProductBox">
+                <h1>Delete Items</h1><br>
+                <div class="input-group">
+                    <label><b>ENTER THE CATEGORY:</b></label>
+                    <input class="form-control" type="text" name="i_name" placeholder="CATEGORY">
+                </div><br>
+                    <button class="btn btn-primary" type="submit">Sumit</button>
+            </div>
+        </form>
+    </body>
+</html>

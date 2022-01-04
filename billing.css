@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	overflow: hidden;
+    
+}
+
+.max-width{
+    margin:auto;
+    padding:0 80px;
+    max-width: 1300px;
+}
+.teams{
+	background: url("COUNT.jpg")no-repeat center;
+	width:100%;
+	height:100vh;
+	background-size: cover;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight:bolder;
+    color:#03045e;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding-bottom: 26px;
+    font-family:glacial indifference;
+}
+section .coupon{
+    text-align: center;
+    position: relative;
+    left:44.9%;
+    font-size: 22px;
+    color:yellow;
+    font-family: 'ubuntu';
+    font-weight: bolder;
+      
+
+}
+section .title::before{
+    content:"";
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    width:180px;
+    height: 3px;
+    background: none;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    bottom:-6px;
+    left: 50%;
+    font-size: 20px;
+    color:brown;
+   padding: 5px;
+    background: none;
+    transform: translateX(-50%);
+}
+.teams .title::after{
+   
+    content: "HAPPY SHOPPING!!!";
+
+
+}
+.teams .carousel .card{
+background:#0096c7;
+border-radius: 6px;
+padding: 25px 35px;
+text-align: center;
+transition: all 0.3s ease;
+border:5px solid #fdffb6;
+}
+.teams .carousel .card:hover{
+    background: #70d6ff;
+}
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight:bolder;
+    font-family: 'ubuntu';
+    color:yellow;
+    margin: 10px 0 7px 0;
+}
+.teams .carousel .card p{
+    
+    color:black;
+    font-family: glacial indifference;
+    font-weight: 800;
+
+}
+.teams .carousel .card img{
+height: 150px;
+width: 150px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid black;
+transition: all 0.3s ease;
+background: crimson;
+}
+.teams .carousel .card:hover img{
+border-color:black;
+background: white;
+
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid yellow !important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active, .owl-dot:hover{
+    background: yellow!important;
+}
+blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: 0.7s linear infinite condemned_blink_effect;
+  }
+  
+  /* for Safari 4.0 - 8.0 */
+  @-webkit-keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD ITEMS</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div id="frn"><br>
+		<h2 align="center">ADD ITEMS!!</h2><br>
+		<form method="post" action="additems.php">
+			<p>
+				<label>NAME:</label>
+				<input type="text" name="name" id="user"/>
+            </p><br>
+            <p>
+				<label>QUANTITY:</label>
+				<input type="text" name="quantity" id="user"/>
+            </p><br>
+            <p>
+                <!-- <input type="text" name="user" id="user"/> -->
+				<label>CATEOGRY:</label>
+				
+                <select  name="category" id="select">
+                    <option value="" > ---SELECT---</option>
+                      <option value="fruits" >FRUITS</option>
+                      <option value="vegetables">VEGETABLES</option>
+                      <option value="diary">DIARY PRODUCTS</option>
+                      <option value="ice-creams">ICE-CREAMS</option>
+                      <option value="beauty">BEAUTY PRODUCTS</option>
+                      <option value="beverages">BEVERAGES</option>
+                      <option value="choco">CHOCOLATES</option>
+                      <option value="dry">DRY FOODS</option>
+                      <option value="flours">FLOURS</option>
+                      <option value="masala">MASALAS</option>
+                      <option value="oils">OILS & FATS</option>
+                      <option value="snacks">SNACKS</option>
+                      <option value="Bath & cleaning">BATH & CLEANING </option>
+                      <option value="Container">CONTAINERS</option>
+                      <option value="Baby Items">BABY ITEMS</option>
+                      <option value="Fast Foods">FAST FOODS</option>
+                        </select>
+            </p><br>
+            <p>
+				<label>PRICE:</label>
+				<input type="text" name="price" id="user"/>
+            </p><br>
+            <p>
+				
+				<input type="submit" name="user" id="btn"/>
+            </p><br>
+		</form>
+		
+	</div>
+</body>
+</html>
